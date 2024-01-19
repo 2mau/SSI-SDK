@@ -20,6 +20,7 @@ export enum IProofType {
   BbsBlsSignatureProof2020 = 'BbsBlsSignatureProof2020',
   BbsBlsBoundSignatureProof2020 = 'BbsBlsBoundSignatureProof2020',
   JwtProof2020 = 'JwtProof2020',
+  AnonCredsVc2023 = 'DataIntegrityProof.anoncredsvc-2023',
 }
 
 export interface IParsedDID {
