@@ -47,7 +47,7 @@ export interface ICredentialSchema {
 
 export interface IProof {
   type: IProofType | string // The proof type
-  created: string // The ISO8601 date-time string for creation
+  created?: string // The ISO8601 date-time string for creation
   proofPurpose: IProofPurpose | string // The specific intent for the proof
   verificationMethod: string // A set of parameters required to independently verify the proof
   challenge?: string // A challenge to protect against replay attacks
